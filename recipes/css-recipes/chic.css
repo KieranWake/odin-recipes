@@ -11,6 +11,7 @@ body {
 
 #header {
     position: absolute; 
+    border-bottom: 2px solid;
     left: 50%; 
     transform: translateX(-50%);
 }
@@ -36,4 +37,12 @@ a {
     font-size: 24px; 
     font-weight: 600;
     margin: 10px; 
+}
+
+.sub-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2px;
+   margin: 2px;
 }
